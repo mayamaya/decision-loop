@@ -7,7 +7,28 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<h1>BUTTS BUTTS BUTTS</h1>
+	<nav class="navbar navbar-inverse" role="navigation">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+  				<span class="sr-only">Toggle navigation</span>
+  				<span class="icon-bar"></span>
+  				<span class="icon-bar"></span>
+  				<span class="icon-bar"></span>
+			</button>
+			<a href="#" class="navbar-brand">Decision Loop</a>
+		</div>
+		<div class="collapse navbar-collapse navbar-ex1-collapse">
+			<ul class="nav navbar-nav">
+				<li><a href="your-profile.html">Your Profile</a></li>
+				<li><a href="your-issues.html">Your Issues</a></li>
+				<li><a href="topics.html">Browse By Topic</a></li>
+				<li><a href="settings.html">Settings</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="#">Sign Out</a></li>
+			</ul>
+		</div>
+	</nav>
+	
 <%= yield %>
 
 </body>
