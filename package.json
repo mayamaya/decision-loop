@@ -1,5 +1,5 @@
 {
-  "name": "application-name",
+  "name": "decision-loop",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,6 +7,11 @@
   },
   "dependencies": {
     "express": "3.3.7",
-    "ejs": "*"
+    "ejs": "*",
+    "mongoose": "3.6.18",
+    "mongodb": "1.3.19",
+    "lorem-ipsum": "0.1.1",
+    "async": "~0.2.9"
+
   }
 }
