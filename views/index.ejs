@@ -7,7 +7,9 @@
   <body>
     <h1><%= title %></h1>
     <p>Create an issue!</p>
-    <p><input type="text" name="issuename"></input></p>
-    <p><input type="submit" name="issuebutton"></input></p>
+    <form method="post" action="create">
+      <p><input type="text" name="name"></input></p>
+      <p><input type="submit"></input></p>
+    </form>
   </body>
 </html>
